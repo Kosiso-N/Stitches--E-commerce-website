@@ -399,6 +399,7 @@ transition:0.1s ease-in-out;
     margin:0 auto ;
     margin-bottom: 20px;
     font-size: 0.8rem;
+    margin-left: ;
 }
 
 .input-button input {
@@ -420,4 +421,14 @@ transition:0.1s ease-in-out;
     border-radius: 0 5px 5px 0;
     border: none;
       box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.footer{
+    background-color: #E59A74;
+    height: 400px;
+    width: 100%;
+    margin-bottom: -1rem;
+    margin-left: -3rem;
+    margi
+    
 }

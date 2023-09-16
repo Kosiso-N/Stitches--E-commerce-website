@@ -16,9 +16,7 @@ border-bottom:1px solid #25313c88 ;
 
 .item{
     display: flex;
-    //flex-wrap: wrap;
     justify-content: space-between;
-   // border-top: 1px solid #25313c88;
     border-bottom: 1px solid #25313c88;
     padding: 15px 30px;
     height: auto;
@@ -80,4 +78,19 @@ background-color: #25313cb2;
 
 .total-price{
     font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.purchase-button{
+    padding: 14px 28px;
+    border: none;
+    background-color:#25313C ;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.1s ease-in-out;
+}
+
+.purchase-button:hover{
+    background-color:#25313cda ;
 }

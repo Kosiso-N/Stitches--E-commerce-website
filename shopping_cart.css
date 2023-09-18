@@ -1,96 +1,87 @@
-.shopping-cart{
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 4rem;
-
-
+.shopping-cart {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 4rem;
 }
 
-.title{
-padding-left: 25px;
-padding-bottom: 15px;
-font-size: 25px;
-border-bottom:1px solid #25313c88 ;
+.title {
+  padding-left: 25px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  border-bottom: 1px solid #25313c88;
 }
 
-
-.item{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #25313c88;
-    padding: 15px 30px;
-    height: auto;
-    align-items: center;
-    margin-top: 1rem;
+.item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #25313c88;
+  padding: 15px 30px;
+  height: auto;
+  align-items: center;
+  margin-top: 1rem;
 }
 
-.item img{
-    height: 150px;
-
+.item img {
+  height: 150px;
 }
 
-.item button{
-    padding: 10px 15PX;
-    //font-size: 17px;
-    border: none;
-    color: white;
-    background-color:  #25313C;
-    border-radius: 5px;
-    transition: 0.1s ease-in-out;
-
-
+.item button {
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  background-color: #25313c;
+  border-radius: 5px;
+  transition: 0.1s ease-in-out;
 }
 
 .item button:hover {
-background-color: #25313cb2;
+  background-color: #25313cb2;
 }
 
-.item .product_name-cart{
-    font-size: 20px;
+.item .product_name-cart {
+  font-size: 20px;
 }
 
-.item .price-cart{
-   font-size: 20px;
+.item .price-cart {
+  font-size: 20px;
 }
 
-.item input{
-    width: 40px;
-    padding: 10px 15PX;
-    background-color:#e9e4cd ;
-    border: 1px solid #25313c81 ;
-}
-    
-.subtotal-price{
-    height: 50px;
-    //background-color: red;
-    display:flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 30px 30px;
-   
+.item input {
+  width: 40px;
+  padding: 10px 15px;
+  background-color: #e9e4cd;
+  border: 1px solid #25313c81;
 }
 
-.total{
-    font-size: 16px;
-    margin-bottom: 15px;
-    font-weight: bold;
+.subtotal-price {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 30px 30px;
 }
 
-.total-price{
-    font-size: 25px;
-    margin-bottom: 30px;
+.total {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
-.purchase-button{
-    padding: 14px 28px;
-    border: none;
-    background-color:#25313C ;
-    color: white;
-    border-radius: 10px;
-    font-size: 18px;
-    transition: 0.1s ease-in-out;
+.total-price {
+  font-size: 25px;
+  margin-bottom: 30px;
 }
 
-.purchase-button:hover{
-    background-color:#25313cda ;
+.purchase-button {
+  padding: 14px 28px;
+  border: none;
+  background-color: #25313c;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.1s ease-in-out;
+}
+
+.purchase-button:hover {
+  background-color: #25313cda;
 }

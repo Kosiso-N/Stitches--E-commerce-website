@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="shopping_cart.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="shopping_cart.css" />
     <title>Document</title>
-</head>
-<body onload="showCartItems()"> <!-- The showCartItems function is called immediately this page is loaded (and ONLY when this page is loaded) -->
-     <nav>
+  </head>
+  <body onload="showCartItems()">
+    <!-- The showCartItems function is called immediately this page is loaded (and ONLY when this page is loaded) -->
+    <nav>
+      <div>
+        <a href="index.html"
+          ><img
+            src="images stitches/STITCHES.png"
+            alt=""
+            srcset=""
+            class="logo"
+        /></a>
+      </div>
 
-        <div><a href="index.html"><img src="images stitches/STITCHES.png" alt="" srcset=""class="logo" ></a></div>
+      <div class="navLinks-1">
+        <a href="">Shop</a>
+        <a href="">About Us</a>
+        <a href="">Contact</a>
+      </div>
 
-        <div class="navLinks-1">
-            <a href="">Shop</a>
-            <a href="">About Us</a>
-            <a href="">Contact</a>
-        </div>
-
-        <div class="navLinks-2">
-            <a href="">Cart(<span>0</span>)</a>
-            <a href="">Account</a>
-        </div>
-
+      <div class="navLinks-2">
+        <a href="">Cart(<span>0</span>)</a>
+        <a href="">Account</a>
+      </div>
     </nav>
 
     <div class="shopping-cart">
-        
-        <div class="title">Shopping Cart</div>
+      <div class="title">Shopping Cart</div>
 
-        <div class="cart-items">
-            <!-- we will render the cart items here -->
-        </div>
+      <div class="cart-items">
+        <!-- we will render the cart items here -->
+      </div>
 
-    
-        <div class="subtotal-price">
-            <div class="total">Total :</div>
-            <div class="total-price">$0</div>
-            <div><button class="purchase-button">Purchase</button></div>
-        </div>
-
-        
-
+      <div class="subtotal-price">
+        <div class="total">Total :</div>
+        <div class="total-price">$0</div>
+        <div><button class="purchase-button">Purchase</button></div>
+      </div>
     </div>
 
-<script src="index.js"></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>

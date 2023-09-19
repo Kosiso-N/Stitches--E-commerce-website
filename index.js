@@ -140,6 +140,3 @@ document.getElementsByClassName('total-price')[0].innerText = `\$${total}`
 }
 
 
-// NOTES: I added an onchange event handler to the each item (check line 83) to change the total without the listener
-// I did this because the listeners were broken for some reason, I can't figure out why
-// I would suggest taking them out as they are no longer necessary.
